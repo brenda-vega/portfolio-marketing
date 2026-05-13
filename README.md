@@ -31,12 +31,13 @@ Algunas métricas se presentan como rangos o aproximaciones para proteger inform
 
 - `index.html` — sitio principal
 - `cv-brenda-vega-2026.pdf` — CV profesional
+- `assets/portfolio-marketing-systems.pdf` — ubicación preparada para el portfolio estratégico PDF
 - `avatar-brenda-marketing.svg` — avatar visual
 - `kairos-dashboard-kpi.png` — mockup de caso Kairos
-- `exponencial-content-system.jpeg` — mockup de caso Exponencial
-- `lytryum-nft-system.jpeg` — mockup de caso Lytryum
+- `exponencial-content-system.png` — mockup de caso Exponencial
+- `lytryum-nft-system.png` — mockup de caso Lytryum
 
 ## Contacto
 
 - LinkedIn: [linkedin.com/in/brendavega012](https://linkedin.com/in/brendavega012)
-- Linktree: [linktr.ee/brendavega012](https://linktr.ee/brendavega012)
+- Website: [brendavega.xyz](https://brendavega.xyz/)
