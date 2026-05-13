@@ -110,6 +110,8 @@ nav{
   background:var(--surface-b);color:var(--muted);display:flex;align-items:center;justify-content:center;
   cursor:pointer;transition:all .2s;flex-shrink:0;font-size:13px
 }
+.theme-toggle svg{width:16px;height:16px;display:block}
+.theme-toggle svg path{fill:currentColor}
 .theme-toggle:hover{color:var(--text);background:var(--surface-c)}
 .theme-icon-dark{display:none}
 [data-theme="dark"] .theme-icon-light{display:none}
@@ -296,6 +298,9 @@ a.meta-item:hover svg{stroke:var(--text)}
 }
 .identity-avatar{display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .avatar-img{width:100%;max-width:440px;height:auto;display:block}
+.avatar-img-dark{display:none}
+[data-theme="dark"] .avatar-img-light{display:none}
+[data-theme="dark"] .avatar-img-dark{display:block}
 .identity-content .section-label{margin-bottom:.5rem}
 .identity-title{
   font-family:'Poppins',sans-serif;
@@ -626,7 +631,9 @@ footer{
     <a href="#contact">Contacto</a>
   </div>
   <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo oscuro">
-    <span class="theme-icon-light" aria-hidden="true">☾</span>
+    <span class="theme-icon-light" aria-hidden="true">
+      <svg viewBox="0 0 16 16" focusable="false"><path d="M8 15.904C5.77733 15.904 3.88833 15.1263 2.333 13.571C0.777666 12.0157 0 10.1267 0 7.904C0 5.878 0.66 4.12133 1.98 2.634C3.3 1.14667 4.93467 0.268667 6.884 0C6.938 0 6.991 0.00200004 7.043 0.00600004C7.095 0.01 7.146 0.0156664 7.196 0.0229998C6.85867 0.493666 6.59167 1.017 6.395 1.593C6.19833 2.169 6.1 2.77267 6.1 3.404C6.1 5.182 6.722 6.693 7.966 7.937C9.21 9.181 10.7213 9.80333 12.5 9.804C13.134 9.804 13.7383 9.70567 14.313 9.509C14.8877 9.31233 15.4037 9.04533 15.861 8.708C15.869 8.758 15.8747 8.809 15.878 8.861C15.8813 8.913 15.8833 8.966 15.884 9.02C15.628 10.9687 14.7563 12.603 13.269 13.923C11.7817 15.243 10.026 15.9033 8 15.904ZM7.999 14.904C9.46567 14.904 10.7823 14.4997 11.949 13.691C13.1157 12.8823 13.9657 11.8283 14.499 10.529C14.1657 10.6123 13.8323 10.679 13.499 10.729C13.1657 10.779 12.8323 10.804 12.499 10.804C10.4497 10.804 8.704 10.0833 7.262 8.642C5.82 7.20067 5.09933 5.45467 5.1 3.404C5.1 3.07067 5.125 2.73733 5.175 2.404C5.225 2.07067 5.29167 1.73733 5.375 1.404C4.075 1.93733 3.02067 2.78733 2.212 3.954C1.40333 5.12067 0.999333 6.43733 1 7.904C1 9.83733 1.68333 11.4873 3.05 12.854C4.41667 14.2207 6.06567 14.904 7.999 14.904Z"/></svg>
+    </span>
     <span class="theme-icon-dark" aria-hidden="true">☼</span>
   </button>
   <button
@@ -695,8 +702,13 @@ footer{
 <div class="identity-wrap" id="perfil">
   <div class="identity-avatar reveal">
     <img
-      class="avatar-img"
+      class="avatar-img avatar-img-light"
       src="avatar-brenda-marketing.svg"
+      alt="Avatar ilustrado de Brenda Vega"
+    >
+    <img
+      class="avatar-img avatar-img-dark"
+      src="avatar-brenda-marketing-dark.svg"
       alt="Avatar ilustrado de Brenda Vega"
     >
   </div>
