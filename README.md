@@ -30,7 +30,7 @@ Algunas métricas se presentan como rangos o aproximaciones para proteger inform
 ## Archivos principales
 
 - `index.html` — sitio principal
-- `cv-brenda-vega.pdf` — CV profesional
+- `cv-brenda-vega-2026.pdf` — CV profesional
 - `avatar-brenda-marketing.svg` — avatar visual
 - `kairos-dashboard-kpi.png` — mockup de caso Kairos
 - `exponencial-content-system.jpeg` — mockup de caso Exponencial
